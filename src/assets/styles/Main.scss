@@ -47,6 +47,17 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
+
+    button {
+        margin-top: 2em;
+        background-color: white;
+        color: #050f0b;
+    }
+    
+    button:hover {
+        background-color: #5000ca;
+        color: white;
+    }
 }
 
 .about-section .image-wrapper {

@@ -72,7 +72,6 @@ function Contact({ mode }: { mode: string }) {
                 }}
                 error={nameError}
                 helperText={nameError ? "Please enter your name" : ""}
-                className='text-field'
               />
               <TextField
                 required
@@ -85,7 +84,6 @@ function Contact({ mode }: { mode: string }) {
                 }}
                 error={emailError}
                 helperText={emailError ? "Please enter your email or phone number" : ""}
-                className='text-field'
               />
             </div>
             <TextField

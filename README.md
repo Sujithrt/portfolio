@@ -6,7 +6,7 @@ This is my portfolio designed to showcase my past projects, career history, skil
 
 View the [Demo](https://Sujithrt.github.io/my-portfolio/).
 
-![screenshot](./src/assets//images/screenshot.png)
+![screenshot](./src/assets//images/portfolio-screenshot.png)
 
 ## Features
 

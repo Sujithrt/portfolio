@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import DownloadIcon from '@mui/icons-material/Download';
 import Button from '@mui/material/Button';
 import '../assets/styles/Main.scss';
@@ -17,6 +18,7 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/Sujithrt" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/sujith-tellakula/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="mailto:sujithramprasad@gmail.com" rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Sujith Tellakula</h1>
           <p>Passionate software developer with expertise in full-stack development, cloud computing, and AI integration. Seeking to apply my skills in building scalable and efficient solutions to drive innovation and enhance user experience.</p>
@@ -28,6 +30,7 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/Sujithrt" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/sujith-tellakula/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="mailto:sujithramprasad@gmail.com" rel="noreferrer"><EmailIcon/></a>
           </div>
         </div>
       </div>

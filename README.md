@@ -4,8 +4,6 @@
 
 This is my portfolio designed to showcase my past projects, career history, skill sets, and more.
 
-View the [Demo](https://Sujithrt.github.io/my-portfolio/).
-
 ![screenshot](./src/assets//images/portfolio-screenshot.png)
 
 ## Features

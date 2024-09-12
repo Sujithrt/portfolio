@@ -35,10 +35,10 @@ function Contact({ mode }: { mode: string }) {
       console.log(templateParams);
       emailjs.send(process.env.REACT_APP_SERVICE_ID!, process.env.REACT_APP_TEMPLATE_ID!, templateParams, process.env.REACT_APP_PUBLIC_KEY!).then(
         (response) => {
-          console.log('SUCCESS!', response.status, response.text);
+          alert('Email sent successfully!');
         },
         (error) => {
-          console.log('FAILED...', error);
+          alert('Failed to send email. Please try again later.');
         },
       );
       setName('');

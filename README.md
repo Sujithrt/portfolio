@@ -4,7 +4,7 @@
 
 This is my portfolio designed to showcase my past projects, career history, skill sets, and more.
 
-![screenshot](./src/assets//images/portfolio-screenshot.png)
+![screenshot](./src/assets//images/screenshot.png)
 
 ## Features
 

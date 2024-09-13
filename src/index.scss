@@ -49,9 +49,16 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
-.navigation-bar-responsive {
+.navigation-bar-responsive-light {
   span, p {
     color: #0d1116;
+    font-family: "Lato", sans-serif;
+  }
+}
+
+.navigation-bar-responsive-dark {
+  span, p {
+    color: #ffffff;
     font-family: "Lato", sans-serif;
   }
 }

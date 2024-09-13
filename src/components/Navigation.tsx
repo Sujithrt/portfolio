@@ -9,7 +9,6 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import List from '@mui/material/List';
-import ListIcon from '@mui/icons-material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -19,10 +18,7 @@ import Toolbar from '@mui/material/Toolbar';
 const drawerWidth = 240;
 const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
 
-function Navigation({parentToChild, modeChange}: any) {
-
-  const {mode} = parentToChild;
-
+function Navigation({ mode, modeChange }: any) {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
 
@@ -58,8 +54,8 @@ function Navigation({parentToChild, modeChange}: any) {
   };
 
   const drawer = (
-    <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <p className="mobile-menu-top"><ListIcon/>Menu</p>
+    <Box className={`navigation-bar-responsive-${mode}`} onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+      <p className="mobile-menu-top">Menu</p>
       <Divider />
       <List>
         {navItems.map((item) => (

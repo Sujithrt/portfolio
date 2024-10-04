@@ -25,7 +25,7 @@ function Main() {
             <strong>Sujith Ramprasad Tellakula</strong>
           </Typography>
           <p>Passionate software developer with expertise in full-stack development, cloud computing, and AI integration. Seeking to apply my skills in building scalable and efficient solutions to drive innovation and enhance user experience.</p>
-          <a href="https://myawsbucket-sujith.s3.us-west-2.amazonaws.com/Resume_SDE.pdf" download="Sujith_Tellakula_Resume.pdf" target="_blank" rel="noreferrer">
+          <a href="https://myawsbucket-sujith.s3.us-west-2.amazonaws.com/Resume_SDE.pdf?v=latest" download="Sujith_Tellakula_Resume.pdf" target="_blank" rel="noreferrer">
             <Button variant="contained" startIcon={<DownloadIcon />}>
               Resume
             </Button>

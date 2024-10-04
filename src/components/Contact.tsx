@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
 import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';

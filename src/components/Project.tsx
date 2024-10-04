@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Carousel from 'react-material-ui-carousel';
 import fakeNewsDetector from '../assets/images/Fake-News-Detector.png';
 import promptopia from '../assets/images/Promptopia.png';

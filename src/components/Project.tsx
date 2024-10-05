@@ -71,7 +71,6 @@ function Project() {
             <h1>Personal Projects</h1>
             <Carousel 
                 key={carouselKey}
-                autoPlay={true}
                 indicators={true}
                 animation="slide"
                 fullHeightHover={true}

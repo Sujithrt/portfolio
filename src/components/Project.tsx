@@ -19,7 +19,7 @@ function Project() {
     const projects = [
         {
             image: prepify,
-            title: "Prepify",
+            title: "Prepify (AI Innovation Award at SunHacks 2024)",
             description: "Prepify is an AI-powered mock interview tool that provides real-time, voice-based interview simulations and personalized feedback.",
             link: "https://devpost.com/software/prepify-io"
         },

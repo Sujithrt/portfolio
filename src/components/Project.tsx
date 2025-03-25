@@ -7,6 +7,8 @@ import chatApp from '../assets/images/Real-Time-Chat-App.png';
 import pnams from '../assets/images/pnams.png';
 import ballTracking from '../assets/images/ball-tracking.jpeg';
 import prepify from '../assets/images/Prepify.png';
+import emotionRecognition from '../assets/images/emotion-recognition.png';
+import elasticVision from '../assets/images/elastic-vision.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -28,6 +30,12 @@ function Project() {
             title: "Prescription and Allergies Management System",
             description: "Developed a full-stack system using React.js, Spring Boot, and MySQL for managing patient prescriptions and allergies, improving workflow efficiency for healthcare professionals.",
             link: "https://github.com/Sujithrt/Prescription-and-Allergies-Management-System"
+        },
+        {
+            image: elasticVision,
+            title: "ElasticVision",
+            description: "Developed an elastic face recognition system using AWS and deep learning, dynamically scaling compute resources to process images on demand and significantly enhancing real-time application efficiency.",
+            link: "https://github.com/Sujithrt/ElasticVision"
         },
         {
             image: chatApp,
@@ -58,6 +66,12 @@ function Project() {
             title: "Ball Tracking in Tennis",
             description: "Developed a solution to track tennis balls and players using a pre-trained YOLOv5 model. Features include image and video processing, speed calculation, and real-time annotation of the tennis ball’s movement.",
             link: "https://github.com/Sujithrt/ball_tracking_in_tennis"
+        },
+        {
+            image: emotionRecognition,
+            title: "Neurosymbolic AI - Rule Based Emotion Recognition",
+            description: "Developed an interpretable emotion recognition system using MediaPipe for facial feature extraction and rule-based algorithms (RIPPER, Decision Trees, Apriori) for transparent classification.",
+            link: "https://github.com/Sujithrt/Neurosymbolic-AI-Rule-Based-Emotion-Detection"
         }
     ];
 

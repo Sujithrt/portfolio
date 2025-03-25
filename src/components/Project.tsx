@@ -8,6 +8,7 @@ import pnams from '../assets/images/pnams.png';
 import ballTracking from '../assets/images/ball-tracking.jpeg';
 import prepify from '../assets/images/Prepify.png';
 import emotionRecognition from '../assets/images/emotion-recognition.png';
+import elasticVision from '../assets/images/elastic-vision.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -29,6 +30,12 @@ function Project() {
             title: "Prescription and Allergies Management System",
             description: "Developed a full-stack system using React.js, Spring Boot, and MySQL for managing patient prescriptions and allergies, improving workflow efficiency for healthcare professionals.",
             link: "https://github.com/Sujithrt/Prescription-and-Allergies-Management-System"
+        },
+        {
+            image: elasticVision,
+            title: "ElasticVision",
+            description: "Developed an elastic face recognition system using AWS and deep learning, dynamically scaling compute resources to process images on demand and significantly enhancing real-time application efficiency.",
+            link: "https://github.com/Sujithrt/ElasticVision"
         },
         {
             image: chatApp,

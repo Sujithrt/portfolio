@@ -9,6 +9,7 @@ import ballTracking from '../assets/images/ball-tracking.jpeg';
 import prepify from '../assets/images/Prepify.png';
 import emotionRecognition from '../assets/images/emotion-recognition.png';
 import elasticVision from '../assets/images/elastic-vision.png';
+import snapdrobe from '../assets/images/snapdrobe.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -22,8 +23,14 @@ function Project() {
         {
             image: prepify,
             title: "Prepify (AI Innovation Award at SunHacks 2024)",
-            description: "Prepify is an AI-powered mock interview tool that provides real-time, voice-based interview simulations and personalized feedback.",
+            description: "Developed an AI powered mock interview tool built with React.js, Node.js, AWS Transcribe and Polly, and WebSockets to deliver real-time, voice-based interview simulations and personalized feedback.",
             link: "https://devpost.com/software/prepify-io"
+        },
+        {
+            image: snapdrobe,
+            title: "SnapDrobe (2nd Place in the Snap Inc. Challenge: Dream it. Build it. at LAHacks 2025)",
+            description: "Developed SnapDrobe, an AI-powered AR wardrobe assistant for Snap Spectacles using Lens Studio, TypeScript, and Python to voice-capture garments and recommend context-aware outfits.",
+            link: "https://devpost.com/software/snapdrobe"
         },
         {
             image: pnams,

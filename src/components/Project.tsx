@@ -28,7 +28,7 @@ function Project() {
         },
         {
             image: snapdrobe,
-            title: "SnapDrobe (2nd Place in the Snap Inc. Challenge: Dream it. Build it. at LAHacks 2025)",
+            title: "SnapDrobe (2nd Place in the Snap Inc. Challenge at LAHacks 2025)",
             description: "Developed SnapDrobe, an AI-powered AR wardrobe assistant for Snap Spectacles using Lens Studio, TypeScript, and Python to voice-capture garments and recommend context-aware outfits.",
             link: "https://devpost.com/software/snapdrobe"
         },

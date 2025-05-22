@@ -10,6 +10,7 @@ import prepify from '../assets/images/Prepify.png';
 import emotionRecognition from '../assets/images/emotion-recognition.png';
 import elasticVision from '../assets/images/elastic-vision.png';
 import snapdrobe from '../assets/images/snapdrobe.png';
+import edgeComputing from '../assets/images/edge-computing.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -44,6 +45,12 @@ function Project() {
             description: "Developed an elastic face recognition system using AWS and deep learning, dynamically scaling compute resources to process images on demand and significantly enhancing real-time application efficiency.",
             link: "https://github.com/Sujithrt/ElasticVision"
         },
+        {
+            image: edgeComputing,
+            title: "Edge Computing using AWS IoT Services",
+            description: "Implemented an on‑device face detection pipeline using AWS IoT Greengrass V2 and MTCNN, decoding Base64 images over MQTT and dispatching results to Amazon SQS for scalable downstream processing.",
+            link: "https://github.com/Sujithrt/EdgeComputing"
+            },
         {
             image: chatApp,
             title: "Real-Time Chat Application",

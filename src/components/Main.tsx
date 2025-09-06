@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import DownloadIcon from '@mui/icons-material/Download';
 import Button from '@mui/material/Button';
+import avatar from '../assets/images/avatar.jpeg';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -12,7 +13,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://myawsbucket-sujith.s3.us-west-2.amazonaws.com/IMG_1122.jpeg" alt="Avatar" />
+          <img src={avatar} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">

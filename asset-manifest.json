@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d1011fba.css",
-    "main.js": "/portfolio/static/js/main.f5edee0e.js",
+    "main.js": "/portfolio/static/js/main.eafff676.js",
     "static/media/emotion-recognition.png": "/portfolio/static/media/emotion-recognition.72361f7a945c1e0aaef9.png",
     "static/media/Promptopia.png": "/portfolio/static/media/Promptopia.e855682c0030b564c801.png",
     "static/media/pnams.png": "/portfolio/static/media/pnams.c5372f149b6df94f649e.png",
@@ -12,15 +12,16 @@
     "static/media/ball-tracking.jpeg": "/portfolio/static/media/ball-tracking.f4174ac496ef64c636dc.jpeg",
     "static/media/Healthcare-Chat-Bot.png": "/portfolio/static/media/Healthcare-Chat-Bot.b033b4308ebc82f78b65.png",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/avatar.jpeg": "/portfolio/static/media/avatar.7b40129f87b9b1ccc8e4.jpeg",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/Real-Time-Chat-App.png": "/portfolio/static/media/Real-Time-Chat-App.2469273574bcd6a7d015.png",
     "static/media/Fake-News-Detector.png": "/portfolio/static/media/Fake-News-Detector.2dddd5416dfc44b9d092.png",
     "index.html": "/portfolio/index.html",
     "main.d1011fba.css.map": "/portfolio/static/css/main.d1011fba.css.map",
-    "main.f5edee0e.js.map": "/portfolio/static/js/main.f5edee0e.js.map"
+    "main.eafff676.js.map": "/portfolio/static/js/main.eafff676.js.map"
   },
   "entrypoints": [
     "static/css/main.d1011fba.css",
-    "static/js/main.f5edee0e.js"
+    "static/js/main.eafff676.js"
   ]
 }

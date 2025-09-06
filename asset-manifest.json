@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d1011fba.css",
+    "main.js": "/portfolio/static/js/main.738c3d0e.js",
+    "static/media/emotion-recognition.png": "/portfolio/static/media/emotion-recognition.72361f7a945c1e0aaef9.png",
+    "static/media/Promptopia.png": "/portfolio/static/media/Promptopia.e855682c0030b564c801.png",
+    "static/media/pnams.png": "/portfolio/static/media/pnams.c5372f149b6df94f649e.png",
+    "static/media/Prepify.png": "/portfolio/static/media/Prepify.65c11861857b1d33fecd.png",
+    "static/media/snapdrobe.png": "/portfolio/static/media/snapdrobe.511f24b93b3660acaad2.png",
+    "static/media/edge-computing.png": "/portfolio/static/media/edge-computing.3c2330bcfeb3862fb44c.png",
+    "static/media/elastic-vision.png": "/portfolio/static/media/elastic-vision.6118658c41c27ca10eaf.png",
+    "static/media/ball-tracking.jpeg": "/portfolio/static/media/ball-tracking.f4174ac496ef64c636dc.jpeg",
+    "static/media/Healthcare-Chat-Bot.png": "/portfolio/static/media/Healthcare-Chat-Bot.b033b4308ebc82f78b65.png",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Real-Time-Chat-App.png": "/portfolio/static/media/Real-Time-Chat-App.2469273574bcd6a7d015.png",
+    "static/media/Fake-News-Detector.png": "/portfolio/static/media/Fake-News-Detector.2dddd5416dfc44b9d092.png",
+    "index.html": "/portfolio/index.html",
+    "main.d1011fba.css.map": "/portfolio/static/css/main.d1011fba.css.map",
+    "main.738c3d0e.js.map": "/portfolio/static/js/main.738c3d0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1011fba.css",
+    "static/js/main.738c3d0e.js"
+  ]
+}

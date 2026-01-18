@@ -16,7 +16,13 @@ const labelsFirst = [
     "MySQL",
     "MongoDB",
     "Flask",
-    "Dagger2"
+    "Dagger2",
+    "FastAPI",
+    "MySQL",
+    "Neo4J",
+    "MongoDB",
+    "Snowflake",
+    "RabbitMQ"
 ];
 
 const labelsSecond = [
@@ -26,6 +32,11 @@ const labelsSecond = [
     "AWS API Gateway",
     "AWS DynamoDB",
     "AWS SageMaker",
+    "AWS SQS",
+    "AWS SNS",
+    "AWS CloudFormation",
+    "AWS CloudWatch",
+    "AWS EventBridge",
     "AWS CDK",
     "Cypress",
     "Selenium",
@@ -35,10 +46,14 @@ const labelsSecond = [
 const labelsThird = [
     "Python",
     "LangChain",
-    "DynamoDB",
     "AutoGen",
     "TensorFlow",
-    "Pandas"
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "OpenAI ChatGPT",
+    "Google Gemini",
+    "AWS Bedrock",
 ];
 
 function Expertise() {

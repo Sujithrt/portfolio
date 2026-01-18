@@ -11,6 +11,8 @@ import emotionRecognition from '../assets/images/emotion-recognition.png';
 import elasticVision from '../assets/images/elastic-vision.png';
 import snapdrobe from '../assets/images/snapdrobe.png';
 import edgeComputing from '../assets/images/edge-computing.png';
+import coreCoach from '../assets/images/ai-fitness-tracking-insight.jpeg';
+import supplySight from '../assets/images/supply-chain-intelligence.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -34,14 +36,8 @@ function Project() {
             link: "https://devpost.com/software/snapdrobe"
         },
         {
-            image: pnams,
-            title: "Prescription and Allergies Management System",
-            description: "Developed a full-stack system using React.js, Spring Boot, and MySQL for managing patient prescriptions and allergies, improving workflow efficiency for healthcare professionals.",
-            link: "https://github.com/Sujithrt/Prescription-and-Allergies-Management-System"
-        },
-        {
             image: elasticVision,
-            title: "ElasticVision",
+            title: "Elastic Face Recognition System",
             description: "Developed an elastic face recognition system using AWS and deep learning, dynamically scaling compute resources to process images on demand and significantly enhancing real-time application efficiency.",
             link: "https://github.com/Sujithrt/ElasticVision"
         },
@@ -50,18 +46,30 @@ function Project() {
             title: "Edge Computing using AWS IoT Services",
             description: "Implemented an on‑device face detection pipeline using AWS IoT Greengrass V2 and MTCNN, decoding Base64 images over MQTT and dispatching results to Amazon SQS for scalable downstream processing.",
             link: "https://github.com/Sujithrt/EdgeComputing"
-            },
+        },
         {
-            image: chatApp,
-            title: "Real-Time Chat Application",
-            description: "Built a real-time chat application using NodeJS, ReactJS, MongoDB, and Socket.IO, allowing secure user messaging and authentication with MongoDB.",
-            link: "https://github.com/Sujithrt/Real-Time-Chat-App"
+            image: coreCoach,
+            title: "AI Fitness Tracking & Insights",
+            description: "Built a secure, microservices-based AI fitness platform using Spring Boot, Keycloak, and OpenAI for personalized tracking and insights.",
+            link: "https://github.com/Sujithrt/ai-fitness-tracking-insights"
+        },
+        {
+            image: supplySight,
+            title: "Supply Chain Intelligence & Risk Insights",
+            description: "Built an interactive supply-chain intelligence platform combining Neo4j graph analytics, Snowflake, and AI-powered risk and demand forecasting with AWS Bedrock.",
+            link: "https://github.com/Sujithrt/supply-chain-intelligence"
         },
         {
             image: healthcareChatBot,
             title: "Healthcare Chat Bot",
             description: "Built an AI-powered chatbot using LangChain and OpenAI for healthcare-related queries, integrated with AstraDB for scalable document storage and intelligent querying.",
             link: "https://github.com/Sujithrt/healthcare_mining"
+        },
+        {
+            image: chatApp,
+            title: "Real-Time Chat Application",
+            description: "Built a real-time chat application using NodeJS, ReactJS, MongoDB, and Socket.IO, allowing secure user messaging and authentication with MongoDB.",
+            link: "https://github.com/Sujithrt/Real-Time-Chat-App"
         },
         {
             image: promptopia,
@@ -86,7 +94,13 @@ function Project() {
             title: "Neurosymbolic AI - Rule Based Emotion Recognition",
             description: "Developed an interpretable emotion recognition system using MediaPipe for facial feature extraction and rule-based algorithms (RIPPER, Decision Trees, Apriori) for transparent classification.",
             link: "https://github.com/Sujithrt/Neurosymbolic-AI-Rule-Based-Emotion-Detection"
-        }
+        },
+        {
+            image: pnams,
+            title: "Prescription and Allergies Management System",
+            description: "Developed a full-stack system using React.js, Spring Boot, and MySQL for managing patient prescriptions and allergies, improving workflow efficiency for healthcare professionals.",
+            link: "https://github.com/Sujithrt/Prescription-and-Allergies-Management-System"
+        },
     ];
 
     const projectPairs = [];
